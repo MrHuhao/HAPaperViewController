@@ -92,7 +92,7 @@ Pod::Spec.new do |s|
   s.source_files  = "Paper", "Paper/*.{h,m}" , "Paper/**/*.{h,m}"
   s.exclude_files = "Paper/Exclude"
 
-  s.public_header_files = "Paper/**/*.h"
+  s.public_header_files = "Paper/**/*.h","Paper/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
