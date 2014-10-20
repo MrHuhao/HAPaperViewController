@@ -89,10 +89,10 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Paper", "Paper/*.{h,m}" , "Paper/**/*.{h,m}"
-  s.exclude_files = "Paper/Exclude"
+  s.source_files  = "HAPaperViewController/Paper", "HAPaperViewController/Paper/*.{h,m}" , "HAPaperViewController/Paper/**/*.{h,m}"
+  s.exclude_files = "HAPaperViewController/Paper/Exclude"
 
-  s.public_header_files = "Paper/**/*.h","Paper/*.h"
+  s.public_header_files = "HAPaperViewController/Paper/**/*.h","HAPaperViewController/Paper/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
