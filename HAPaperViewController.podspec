@@ -89,7 +89,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Paper", "Paper/**/*.{h,m}"
+  s.source_files  = "Paper", "Paper/*.{h,m}" , "Paper/**/*.{h,m}"
   s.exclude_files = "Paper/Exclude"
 
   s.public_header_files = "Paper/**/*.h"
